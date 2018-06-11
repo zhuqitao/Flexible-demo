@@ -7,6 +7,7 @@
     <div class="box3">asd</div>
     <div class="box4"></div>
     <div class="box5"></div>
+    <div class="border">border</div>
   </div>
 </template>
 
@@ -47,5 +48,10 @@
   /* 750 * 100% */
   width: 750px;
   background-color: darkred;
+}
+.border{
+  height: 10px;
+  width: 10rem;
+  border-bottom: solid 1px #000;
 }
 </style>
